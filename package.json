@@ -19,6 +19,7 @@
     "css-loader": "^5.0.1",
     "less": "^4.1.0",
     "less-loader": "^7.2.1",
+    "less-watch-compiler": "^1.14.6",
     "node-sass": "^5.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",

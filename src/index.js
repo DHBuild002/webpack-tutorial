@@ -12,12 +12,17 @@ require("./styles/styles.css");
 import React from "react";
 import ReactDOM from "react-dom";
 
-import './styles/styles.scss'
-import './styles/styles.less'
+import "./styles/styles.scss";
+import "./styles/styles.less";
 
 class App extends React.Component {
   render() {
-    return <div>Hello {this.props.name}</div>;
+    return (
+      <div>
+        <a> Dan around the {this.props.name}
+        </a>
+      </div>
+    );
   }
 }
 var mountNode = document.getElementById("app");
